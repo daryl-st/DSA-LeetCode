@@ -18,7 +18,7 @@ public class LinkedList {
 	}
 
 	private Node head, tail;
-	private int counter = 0; // used to calculate the size
+	private int counter = 0; // used to calculate the size of linkedList
 
 	// addFirst
 	public void addFirst(int value) {

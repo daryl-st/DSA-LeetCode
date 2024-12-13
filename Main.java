@@ -7,15 +7,9 @@ public class Main {
 		list.addLast(30);
 		list.addFirst(40);
 
-		System.out.println(list.contains(40));
-
 		list.display();
 
-		list.deleteFirst();
-		list.deleteLast();
-
-		System.out.println(" ");
-		System.out.println(list.contains(30));
+		list.reverse();
 		list.display();
 	}
 }

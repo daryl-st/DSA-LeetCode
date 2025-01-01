@@ -1,12 +1,13 @@
 public class Main {
 	public static void main(String[] args) {
-		LinkedList list = new LinkedList();
-		// adding to the list
-		list.addLast(10);
-		list.addFirst(30);
-		list.addLast(20);
-		list.addFirst(40);
-		// displaying linked list
-		list.display();
+		Stacks stack = new Stacks();
+
+		stack.push(10);
+		stack.pop();
+		stack.push(20);
+		stack.push(30);
+		stack.print();
+		stack.pop();
+		stack.print();
 	}
 }
